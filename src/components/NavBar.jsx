@@ -5,9 +5,8 @@ const Navbar = () => {
     <nav className="bg-red-300 shadow-md fixed top-0 left-0 w-full z-50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          {/* <div className="text-2xl font-bold text-blue-600">My-Website</div> */}
           <img
-            src="src/assets/images/nabar.jpg"
+            src="../assets/images/nabar.jpg"
             alt="sunita verma"
             className=" w-20 h-10  shadow-lg object-cover"
           ></img>

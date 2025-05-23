@@ -41,7 +41,7 @@ function Footer() {
     <footer className="bg-gray-900 text-white py-10 mt-10  ">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <img src="src/assets/images/logo.jpg" alt="sunita verma" className=" w-20 h-20 rounded-full shadow-lg object-cover border-4 border-white"></img>
+          <img src="../assets/images/logo.jpg" alt="sunita verma" className=" w-20 h-20 rounded-full shadow-lg object-cover border-4 border-white"></img>
           <p className="text-sm text-white">
             Hello! I'm Developer Sunita Verma — a passionate front-end developer
             with a Bachelor's degree in Computer Applications (BCA) from DN
