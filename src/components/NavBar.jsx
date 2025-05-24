@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <img
-            src="../assets/images/nabar.jpg"
+            src="src/assets/images/nabar.jpg"
             alt="sunita verma"
             className=" w-20 h-10  shadow-lg object-cover"
           ></img>

@@ -1,39 +1,3 @@
-// import React from "react";
-
-// function Footer() {
-//   return (
-//     <footer className="bg-gray-800 text-white py-6">
-//       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-//         <p className="text-sm">
-//           &copy; {new Date().getFullYear()} Sunita | All rights reserved
-//         </p>
-//         <div className="flex space-x-4 mt-4 md:mt-0">
-//           <a
-//             href="https://github.com/sunita"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="hover:text-gray-300"
-//           >
-//             GitHub
-//           </a>
-//           <a
-//             href="https://linkedin.com/in/sunita"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="hover:text-gray-300"
-//           >
-//             LinkedIn
-//           </a>
-//           <a href="mailto:sunita@example.com" className="hover:text-gray-300">
-//             Email
-//           </a>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// }
-
-// export default Footer;
 import React from "react";
 
 function Footer() {
@@ -41,7 +5,11 @@ function Footer() {
     <footer className="bg-gray-900 text-white py-10 mt-10  ">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <img src="../assets/images/logo.jpg" alt="sunita verma" className=" w-20 h-20 rounded-full shadow-lg object-cover border-4 border-white"></img>
+          <img
+            src="src/assets/images/logo.jpg"
+            alt="sunita verma"
+            className=" w-20 h-20 rounded-full shadow-lg object-cover border-4 border-white"
+          ></img>
           <p className="text-sm text-white">
             Hello! I'm Developer Sunita Verma — a passionate front-end developer
             with a Bachelor's degree in Computer Applications (BCA) from DN
@@ -70,24 +38,24 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-xl font-semibold mb-4">Contact</h2>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-white">
             Email:
-            <a href="mailto:sunitaVerma@gmail.com" className="hover:text-white">
-              sunitaVerma@gmail.com
+            <a href="mailto:SunitaVerma@gmail.com" className="hover:text-white">
+              SunitaVerma@gmail.com
             </a>
           </p>
-          <p className="text-sm text-gray-400 mt-2">
+          <p className="text-sm text-white mt-2">
             Phone:
-            <a href="tel:+91 89293-40064" className="hover:text-white">
+            <a href="tel:+91 89293-40064" className="hover:text-gray-600">
               +91 89293-40064
             </a>
           </p>
           <div className="flex space-x-4 mt-4">
             <a
-              href="https://github.com/sunita"
+              href="https://github.com/sunita0987"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-white"
+              className="hover:text-gray-600"
             >
               GitHub
             </a>
@@ -95,9 +63,17 @@ function Footer() {
               href="https://linkedin.com/in/sunita"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-white"
+              className="hover:text-gray-600"
             >
               LinkedIn
+            </a>
+            <a
+              href="https://x.com/Sunitaverm69161"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-700"
+            >
+              twitter
             </a>
           </div>
         </div>

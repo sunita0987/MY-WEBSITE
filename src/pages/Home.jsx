@@ -2,8 +2,9 @@ import React from "react";
 function Home() {
   return (
     <div>
+      {/* <img src=" src/assets/images/sunitaverma.jpg"></img> */}
       <h1 className="text-5xl font-normal text-center mt-30 text-red-600 ">
-        DEVELOPER SUNITA VERMA
+         Developer SUNITA VERMA
       </h1>
       <h2 className="text-4xl font-bold text-center mt-10 text-sky-800">
         Welcome to My profile
@@ -14,7 +15,7 @@ function Home() {
           with a Bachelor's degree in Computer Applications (BCA) from DN
           College, Hisar (2024).
         </span>
-        Currently, I am pursuing a front-end development course at Radial Code,
+        Currently, I am pursuing a front-end development in <span className="font-bold text-red-700"> HISAR,</span>
         where I'm learning and building projects using HTML, CSS, JavaScript,
         React, and Tailwind CSS. I enjoy creating clean, responsive, and
         user-friendly web applications. Some of my recent projects include a

@@ -18,13 +18,13 @@ const Contact = () => {
         </p>
         <p className="text-lg text-gray-700">
           Phone:
-          <a href="tel:+919876543210" className="text-blue-500">
+          <a href="tel:+91 89293-40064" className="text-blue-500">
             8929340064
           </a>
         </p>
         <div className="mt-4 space-x-4">
           <a
-            href="https://github.com/yourgithub"
+            href="https://github.com/sunita0987"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-700 hover:underline"
@@ -39,6 +39,14 @@ const Contact = () => {
           >
             LinkedIn
           </a>
+           <a
+              href="https://x.com/Sunitaverm69161"
+              target="_blank"
+              rel="noreferrer"
+              className="text-green-800 hover:underline"
+            >
+              twitter
+            </a>
         </div>
       </div>
       <form className="space-y-6 bg-white p-6 shadow-lg rounded-lg">
