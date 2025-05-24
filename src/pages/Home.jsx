@@ -16,8 +16,8 @@ function Home() {
           College, Hisar (2024).
         </span>
         Currently, I am pursuing a front-end development in <span className="font-bold text-red-700"> HISAR,</span>
-        where I'm learning and building projects using HTML, CSS, JavaScript,
-        React, and Tailwind CSS. I enjoy creating clean, responsive, and
+        where I'm learning and building projects using <span className="font-bold text-green-800">HTML, CSS, JavaScript,
+        React, and Tailwind CSS.</span> I enjoy creating clean, responsive, and
         user-friendly web applications. Some of my recent projects include a
         calorie counter app, a dice game, and a forum leaderboard that displays
         real-time data. I believe in writing clean, maintainable code and
