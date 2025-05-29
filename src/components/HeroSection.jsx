@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="text-center md:text-left max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fuchsia-600">
-            Hi, I'm Sunita
+            Hi, I'm SUNITA VERMA
           </h1>
           <p className="text-lg md:text-xl text-sky-700 mb-6">
             Front-End Developer 
