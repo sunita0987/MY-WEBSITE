@@ -28,6 +28,6 @@ function Home() {
         developer, and contribute to impactful projects.
       </p>
     </div>
-  )
+  );
 }
 export default Home;

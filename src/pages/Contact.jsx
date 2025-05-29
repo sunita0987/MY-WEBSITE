@@ -39,14 +39,14 @@ const Contact = () => {
           >
             LinkedIn
           </a>
-           <a
-              href="https://x.com/Sunitaverm69161"
-              target="_blank"
-              rel="noreferrer"
-              className="text-green-800 hover:underline"
-            >
-              twitter
-            </a>
+          <a
+            href="https://x.com/Sunitaverm69161"
+            target="_blank"
+            rel="noreferrer"
+            className="text-green-800 hover:underline"
+          >
+            twitter
+          </a>
         </div>
       </div>
       <form className="space-y-6 bg-white p-6 shadow-lg rounded-lg">

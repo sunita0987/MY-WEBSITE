@@ -2,7 +2,9 @@ import React from "react";
 function Projects() {
   return (
     <div className="bg-red-700">
-      <h1 className="text-4xl font-bold text-center mt-20 text-teal-700">My Projects</h1>
+      <h1 className="text-4xl font-bold text-center mt-20 text-teal-700">
+        My Projects
+      </h1>
       <p className="text-center mt-4 text-lg text-blue-700">
         Here are some of the projects I have worked on:
       </p>
