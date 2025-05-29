@@ -10,7 +10,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ImageUpload from "./components/ImageUpload";
-import TimeLine from "./components/TimeLine";
+import CTASection from "./components/CTASection";
+import HeroSection from "./components/HeroSection";
 function App() {
   return (
     <>
@@ -24,8 +25,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      <HeroSection/>
+      <CTASection/>
       <ImageUpload/>
-      <TimeLine/>
       <Footer />
     </>
   );

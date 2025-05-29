@@ -1,15 +1,16 @@
 import { NavLink, Outlet } from "react-router-dom";
 import React from "react";
+import profileImg from "../assets/images/nabar.jpg"
 const Navbar = () => {
   return (
     <nav className="bg-red-300 shadow-md fixed top-0 left-0 w-full z-50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <img
-            src="src/assets/images/nabar.jpg"
-            alt="sunita verma"
-            className=" w-20 h-10  shadow-lg object-cover"
-          ></img>
+            src={profileImg}
+            alt="Sunita"
+            className="w-20 h-10 rounded-xl"
+          />
           <div className="space-x-6 hidden md:block">
             <NavLink
               to="/"

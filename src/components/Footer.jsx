@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "../assets/images/logo.jpg"
 
 function Footer() {
   return (
@@ -6,10 +7,11 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <img
-            src="src/assets/images/logo.jpg"
-            alt="sunita verma"
-            className=" w-20 h-20 rounded-full shadow-lg object-cover border-4 border-white"
-          ></img>
+            src={profileImg}
+            alt="Sunita"
+            className="w-20 h-20 object-cover rounded-full shadow-lg border-4 border-red-600"
+          />
+
           <p className="text-sm text-white">
             Hello! I'm Developer Sunita Verma — a passionate front-end developer
             with a Bachelor's degree in Computer Applications (BCA) from DN
