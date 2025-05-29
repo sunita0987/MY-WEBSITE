@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ImageUpload from "./components/ImageUpload";
+import TimeLine from "./components/TimeLine";
 function App() {
   return (
     <>
@@ -23,10 +24,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-      <Footer />
       <ImageUpload/>
+      <TimeLine/>
+      <Footer />
     </>
   );
 }
-
 export default App;

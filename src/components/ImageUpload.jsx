@@ -17,8 +17,10 @@ const ImageUpload = () => {
     alert("Image ready for upload (implement API call)");
   };
   return (
-    <div className="max-w-md mx-auto p-4 border border-gray-400 rounded-lg shadow-md mt-20 items-center mb-10">
-      <h2 className="text-xl font-semibold mb-4 text-center text-red-600">Upload Image</h2>
+    <div className="max-w-md mx-auto p-4 border-3 border-gray-400 rounded-lg shadow-md mt-20 items-center mb-10">
+      <h2 className="text-xl font-semibold mb-4 text-center text-red-600">
+        Upload Image
+      </h2>
       <input
         type="file"
         accept="image/*"
