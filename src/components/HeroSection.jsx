@@ -1,13 +1,13 @@
 import React from "react";
 import profileImg from "../assets/images/logo.jpg";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section className="bg-black py-16 px-4 rounded-2xl">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="text-center md:text-left max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fuchsia-600">
-            Hi, I'm SUNITA VERMA
+            Hi, I'm Developer SUNITA VERMA
           </h1>
           <p className="text-lg md:text-xl text-sky-700 mb-6">
             Front-End Developer 
@@ -39,4 +39,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
