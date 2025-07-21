@@ -9,6 +9,7 @@ import ImageUpload from '../components/ImageUpload';
 import Timeline from "../components/Timeline";
 import Tools from '../components/Tools';
 import Footer from '../common/Footer';
+import WhatsAppButton from '../common/WhatsappButton';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
        <ImageUpload/>
        <Timeline/>
        <Tools/>
+       <WhatsAppButton/>
        <Footer/>
     </div>
   )
