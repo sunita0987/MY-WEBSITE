@@ -8,8 +8,7 @@ import FunFacts from '../components/FunFacts';
 import ImageUpload from '../components/ImageUpload';
 import Timeline from "../components/Timeline";
 import Tools from '../components/Tools';
-import Footer from '../components/Footer';
-
+import Footer from '../common/Footer';
 
 function Home() {
   return (
