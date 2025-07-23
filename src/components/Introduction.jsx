@@ -2,8 +2,8 @@ import React from "react";
 function Introduction() {
   return (
     <div>
-      <h1 className="text-5xl  text-center mt-30 text-red-600 font-Italic ">
-        Developer SUNITA VERMA
+      <h1 className="text-5xl  text-center mt-30 text-red-600 font-bold">
+        Developer SUNITA VERMA 
       </h1>
       <h2 className="text-4xl font-bold text-center mt-10 text-sky-800">
         Welcome to My profile

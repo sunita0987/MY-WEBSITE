@@ -16,7 +16,6 @@ const Location = () => {
           loading="lazy"
           className="border-0"
         ></iframe>
-        
       </div>
     </section>
   );

@@ -9,8 +9,8 @@ function Skills() {
     <div>
       <Teach />
       <SkillCategory />
-      <WhatsAppButton/>
-      <Footer/>
+      <WhatsAppButton />
+      <Footer />
     </div>
   );
 }
