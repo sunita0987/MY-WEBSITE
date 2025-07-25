@@ -26,7 +26,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    setErrors({ ...errors, [e.target.name]: "" }); 
+    setErrors({ ...errors, [e.target.name]: "" });
   };
 
   const handleSubmit = (e) => {
@@ -98,11 +98,15 @@ const Contact = () => {
         className="space-y-6 bg-white p-6 shadow-lg rounded-lg"
       >
         {submitted && (
-          <p className="text-green-600 font-semibold">Message sent successfully!</p>
+          <p className="text-green-600 font-semibold">
+            Message sent successfully!
+          </p>
         )}
 
         <div>
-          <label className="block text-sm font-medium text-gray-700">Name</label>
+          <label className="block text-sm font-medium text-gray-700">
+            Name
+          </label>
           <input
             name="name"
             value={formData.name}
@@ -115,7 +119,9 @@ const Contact = () => {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-700">Email</label>
+          <label className="block text-sm font-medium text-gray-700">
+            Email
+          </label>
           <input
             name="email"
             value={formData.email}
@@ -124,11 +130,15 @@ const Contact = () => {
             placeholder="Your email"
             className="mt-1 block w-full border border-gray-300 rounded-md p-2"
           />
-          {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+          {errors.email && (
+            <p className="text-red-500 text-sm">{errors.email}</p>
+          )}
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-700">Message</label>
+          <label className="block text-sm font-medium text-gray-700">
+            Message
+          </label>
           <textarea
             name="message"
             value={formData.message}
@@ -137,7 +147,9 @@ const Contact = () => {
             placeholder="Your message"
             className="mt-1 block w-full border border-gray-300 rounded-md p-2"
           ></textarea>
-          {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
+          {errors.message && (
+            <p className="text-red-500 text-sm">{errors.message}</p>
+          )}
         </div>
 
         <button

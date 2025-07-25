@@ -31,7 +31,7 @@ export default function Certifications() {
         {certifications.map((cert, index) => (
           <li
             key={index}
-            className="bg-white shadow-md p-4 rounded-lg hover:shadow-lg transition"
+            className="bg-[#ffffff] shadow-md p-4 rounded-lg hover:shadow-lg transition"
           >
             <a
               href={cert.link}

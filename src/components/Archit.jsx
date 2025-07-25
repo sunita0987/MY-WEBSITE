@@ -22,7 +22,6 @@ const Archit = () => {
               frontend frameworks and backend APIs, he brings great value to
               every project.
             </p>
-
             <div className="flex space-x-4 mt-4">
               <a
                 href="https://github.com/"

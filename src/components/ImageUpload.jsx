@@ -38,7 +38,7 @@ const ImageUpload = () => {
       )}
       <button
         onClick={handleUpload}
-        className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition cursor-pointer font-bold"
+        className="w-full bg-blue-600 text-[#ffffff] py-2 px-4 rounded hover:bg-blue-700 transition cursor-pointer font-bold"
       >
         Upload
       </button>

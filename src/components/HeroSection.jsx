@@ -3,7 +3,7 @@ import profileImg from "../assets/images/logo.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="bg-black py-16 px-4 rounded-2xl">
+    <section className="bg-[#000000] py-16 px-4 rounded-2xl">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="text-center md:text-left max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fuchsia-600">
@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="flex justify-center md:justify-start gap-4">
             <a
               href="#contact"
-              className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+              className="bg-blue-500 text-[#ffffff] px-6 py-2 rounded-lg hover:bg-blue-700"
             >
               Contact Me
             </a>
